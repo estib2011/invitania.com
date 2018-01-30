@@ -26,7 +26,7 @@
 body {
 	color:#666666;
 	font-family:'Open Sans';
-	font-size:21px;
+	font-size:14px;
 	font-weight:400;
 	line-height:23px;
 }
@@ -59,9 +59,9 @@ h5 {
 	font-family:'montserratlight';
 }
 
-/*section {
+section {
 	padding:90px 0;
-}*/
+}
 
 .uppercase {
 	text-transform:uppercase;
@@ -220,7 +220,10 @@ a {
 #highlight #right {
 	background:none;
 }
-	
+
+#fitur2{
+	direction: rtl;
+}
 }
 
 
@@ -546,15 +549,18 @@ a {
 	margin-top:20px;
 }
 
+#fitur2{
+	direction: rtl;
+}
+
 }
 
 
 /* DOWNLOAD */
 
-#download{
-	padding-top: 5%;
-	padding-right:10%;
-	padding-left: 10%;
+#download {
+	padding-right: 10%;
+	padding-left:  10%;
 }
 
 #download h3:after {
@@ -566,9 +572,8 @@ a {
  	margin-top: 12px;
   	margin-bottom: 15px;
 }
-/* KREASI*/
 #kreasi{
-	padding-bottom: 0;
+	padding-bottom: 0px;
 }
 
 /* VENUE */
@@ -1343,4 +1348,12 @@ figure.effect-ming:hover figcaption {
 
 figure.effect-ming:hover img {
 	opacity: 0.4;
+}
+
+#quote{
+margin-top: 130px;
+text-align: center;
+color: white;
+font-size: 3em;
+font-style: italic;
 }
