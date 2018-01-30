@@ -59,10 +59,10 @@ h5 {
 	font-family:'montserratlight';
 }
 
-section {
+/*section {
 	padding:90px 0;
 }
-
+*/
 .uppercase {
 	text-transform:uppercase;
 }
@@ -561,19 +561,22 @@ a {
 #download {
 	padding-right: 10%;
 	padding-left:  10%;
+	padding-top: 5%;
 }
 
-#download h3:after {
+#kreasi h3:after {
 	content: "";
   	display: block;
   	width: 120px;
   	height: 3px;
  	background-color: #fac42b;
- 	margin-top: 12px;
+ 	margin-top: 25px;
   	margin-bottom: 15px;
 }
 #kreasi{
 	padding-bottom: 0px;
+	background-color: #fac42b;
+	padding-top: 25px;
 }
 
 /* VENUE */
