@@ -7,7 +7,7 @@
 	4. INFO 
 	5. SPEAKERS
 	6. PROGRAM
-	7. DOWNLOAD
+	7. feature
 	8. VENUE
 	9. FUNFACTS
 	10. REGISTER
@@ -202,7 +202,7 @@ a {
 	min-height:100px;
 }
 
-#right #countdown {
+#right #info {
 	margin:15px 0;
 }
 
@@ -244,13 +244,13 @@ a {
 }
 
 
-/* countdown */
+/* info */
 
-#countdown {
+#info {
 	margin-top:0;
 }
 
-#countdown .countdown_amount {
+#info .info_amount {
 	color:#666666;
 	font-family:'montserratregular';
 	font-size:40px;
@@ -259,7 +259,7 @@ a {
 	text-align:center;
 }
 
-#countdown .countdown_section {
+#info .info_section {
 	color:#262626;
 	font-family:'montserratbold';
 	font-size:13px;
@@ -556,9 +556,9 @@ a {
 }
 
 
-/* DOWNLOAD */
+/* feature */
 
-#download {
+#feature {
 	padding-right: 10%;
 	padding-left:  10%;
 	padding-top: 5%;
