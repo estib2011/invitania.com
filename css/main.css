@@ -275,9 +275,17 @@ a {
 #speakers {
 	background:#f5f5f5;
 	border-top:1px solid #f0f0f0;
-	padding:70px 0 90px 0;
+	padding-right:5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
 }
-
+#speakers iframe{
+	padding: 25px;
+	padding-right: 0;
+}
+#speakers .deskripsi{
+	padding: 25px;
+}
 .speaker {
 	margin-bottom:30px;
 	background:#ffffff;
